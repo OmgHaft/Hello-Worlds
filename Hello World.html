@@ -1,0 +1,45 @@
+<head>
+<title>Hello, World!</title>
+<link rel="icon" type="image/x-icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fdevelopment-2%2F24%2Fterminal-512.png&f=1&nofb=1">
+</head>
+<body bgcolor="#658391">
+<div class="wrapper">
+    <div class="hello-world">
+      Hello, World!
+    </div>
+</div>
+<style>
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello-world {
+  width: 13ch;
+  animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  color: #c9dbe2;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+</style>
+<script>
+alert("Hello, World!")
+</script>
+</body>
